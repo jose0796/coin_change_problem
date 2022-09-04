@@ -9,9 +9,9 @@ Given a value N, if we want to make change for N cents, and we have infinite sup
 
 The only solution I seemed to find was to use a variation of the classic Knapsack Problem with infinite supply elements.
 
-The very first thing to notice is that the Knapsack problem solution provides insite of the minimal number of coins to be used, but not the number for each coin. In order to do so we may use a matrix of NxM (where, as mentioned in the statement, N is the number of cents we need to provide, and M is the number of coins we have). Each file of this matrix, then represents the number of coins involved in the optimal solution. 
+The very first thing to notice is that the Knapsack problem solution provides insight of the minimal number of coins to be used, but not the number for each coin. In order to do so we may use a matrix of NxM (where, as mentioned in the statement, N is the number of cents we need to provide, and M is the number of coins we have). Each file of this matrix, then represents the number of coins involved in the optimal solution. 
 
-So, given this setup, we just need to add some extra caviets in order to make it work. This is a sample nicely formulated code in python of the Knapsack problem.
+So, given this setup, we just need to add some extra caveats in order to make it work. This is a sample code in python of the Knapsack problem.
 
 ```python
 import math 
